@@ -1,11 +1,11 @@
-// cricket-score-board
-// calculate current_run_rate to every balls and net_run_rate to every over based on given number of total_balls
-// this program is going to display current_run_rate and net_run_rate based on giving number of balls 
-// and aslo display the final total score
+    // cricket-score-board
+    // calculate current_run_rate to every balls and net_run_rate to every over based on given number of total_balls
+    // this program is going to display current_run_rate and net_run_rate based on giving number of balls 
+    // and aslo display the final total score
 
-#include<stdio.h> // include header files 
-int main(void) // beginning of C program 
-{ 
+    #include<stdio.h> // include header files 
+    int main(void) // beginning of C program 
+    { 
     // declre variables 
     int total_balls; // total balls getting from user 
     int ball_count=0; // number of balls 
@@ -123,7 +123,7 @@ int main(void) // beginning of C program
                 scanf("%d", &extra_runs); 
                 score+=1; 
                 score+=extra_runs; 
-   if(ball_count != 0) 
+                    if(ball_count != 0) 
                     { 
                         current_run_rate=(float)score/ball_count; 
                         printf("Current Run Rate(CRR): %.2f\n\n", current_run_rate); 
@@ -142,4 +142,4 @@ int main(void) // beginning of C program
     printf("Total Score: %d", score); // display total score 
      
     return 0; // end of the program 
-} 
+    } 
