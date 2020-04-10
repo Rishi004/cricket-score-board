@@ -1,4 +1,6 @@
     // cricket-score-board
+    // no array and no function and no pointer
+    // just loop only
     // calculate current_run_rate to every balls and net_run_rate to every over based on given number of total_balls
     // this program is going to display current_run_rate and net_run_rate based on giving number of balls 
     // and aslo display the final total score
